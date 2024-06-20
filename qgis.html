@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>QGIS - Suzanna Krivulskaya</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68770630-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8270290152870223",
+    enable_page_level_ads: true
+  });
+</script>
+		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1718844502" title="wsite-theme-css" />
+<link href='http://cdn2.editmysite.com/fonts/Open_Sans/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Alice/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Raleway/font.css?2' rel='stylesheet' type='text/css' />
+
+<link href='http://cdn2.editmysite.com/fonts/Yantramanav/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Actor/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Sansation/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Bebas/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Inconsolata/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/News_Cycle/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Open_Sans/font.css?2' rel='stylesheet' type='text/css' />
+<style type='text/css'>
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Yantramanav" !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {color:#3f3f3f !important;}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Actor" !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{font-family:"Sansation" !important;}
+#wsite-title {font-family:"Bebas" !important;color:#626262 !important;font-style:normal !important;text-transform:  none !important;letter-spacing: 4px !important;}
+.wsite-menu-default a {font-family:"Inconsolata" !important;text-transform:  uppercase !important;letter-spacing: 1px !important;}
+.wsite-menu a {font-family:"News Cycle" !important;letter-spacing: 1px !important;}
+.wsite-image div, .wsite-caption {font-weight:300 !important;}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {font-family:"Open Sans" !important;}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+.wsite-not-footer h2.wsite-content-title a:hover, .wsite-not-footer .paragraph a:hover, .wsite-not-footer blockquote a:hover, #blogTable .blog-sidebar a:hover, #blogTable .blog-comments a:hover, #blogTable .blog-comments-bottom a:hover, #wsite-com-store a:hover, #wsite-com-product-gen a:hover {color:#24678d !important;}
+.wsite-button-small .wsite-button-inner {font-size:16px !important;}
+.wsite-button-large .wsite-button-inner {font-size:14px !important;}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-size:17px !important;line-height:22px !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-size:30px !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {font-size:31px !important;}
+.wsite-menu-default a {font-size:18px !important;}
+.wsite-menu a {font-size:15px !important;}
+.wsite-image div, .wsite-caption {font-size:12px !important;}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {font-size:20px !important;}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+
+		<script>
+var STATIC_BASE = '//cdn1.editmysite.com/';
+var ASSETS_BASE = '//cdn2.editmysite.com/';
+var STYLE_PREFIX = 'wsite';
+</script>
+<script src='https://cdn2.editmysite.com/js/jquery-1.8.3.min.js'></script>
+
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script>
+<script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">
+		function initCustomerAccountsModels() {
+					(function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
+_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":"_W.CustomerAccounts.BackboneModelData","collection_namespace":"_W.CustomerAccounts.BackboneCollectionData","bootstrap_namespace":"_W.CustomerAccounts.BackboneBootstrap","models":{"CustomerAccounts":{"_class":"CustomerAccounts.Model.CustomerAccounts","defaults":null,"validation":null,"types":null,"idAttribute":null,"keydefs":null}},"collections":{"CustomerAccounts":{"_class":"CustomerAccounts.Collection.CustomerAccounts"}},"bootstrap":[]});
+})();
+		}
+		if(document.createEvent && document.addEventListener) {
+			var initEvt = document.createEvent('Event');
+			initEvt.initEvent('customerAccountsModelsInitialized', true, false);
+			document.dispatchEvent(initEvt);
+		} else if(document.documentElement.initCustomerAccountsModels === 0){
+			document.documentElement.initCustomerAccountsModels++
+		}
+		</script>
+		<script type="text/javascript"> _W = _W || {}; _W.securePrefix='UNSET'; </script><script>_W = _W || {};
+			_W.customerLocale = "en_US";
+			_W.storeName = null;
+			_W.isCheckoutReskin = false;
+			_W.storeCountry = "US";
+			_W.storeCurrency = "USD";
+			_W.storeEuPrivacyPolicyUrl = "";
+			com_currentSite = "834601298698637463";
+			com_userID = "53434149";</script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"><!--
+	var IS_ARCHIVE = 1;
+	var DISABLE_NAV_MORE = 1;
+	function initFlyouts(){
+		initPublishedFlyoutMenus(
+			[{"id":"987264931313096180","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"379937558885066801","title":"CV","url":"cv.html","target":"","nav_menu":false,"nonclickable":false},{"id":"166043036265699639","title":"DH Tools","url":"dh-tools.html","target":"","nav_menu":false,"nonclickable":false},{"id":"748727706253645763","title":"Tutorials","url":"tutorials.html","target":"","nav_menu":false,"nonclickable":false},{"id":"851374558209756744","title":"Research Resources","url":"research-resources.html","target":"","nav_menu":false,"nonclickable":false}],
+			"971543390449875433",
+			'',
+			'active',
+			false,
+			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+			{}
+		)
+	}
+//-->
+</script>
+		
+		
+	</head>
+	<body class="  wsite-theme-light  wsite-page-qgis"><div id="wrapper">
+	<div class="bg-wrapper">
+		<div id="header">
+			<div id="sitename"><span class="wsite-logo">
+
+	<a href="">
+	
+	<span id="wsite-title">Suzanna Krivulskaya</span>
+	
+	</a>
+
+</span></div>
+		</div>
+		<div id="navigation"><ul class="wsite-menu-default">
+		<li id="pg987264931313096180" class="wsite-menu-item-wrap">
+			<a
+						href="index.html"
+				class="wsite-menu-item"
+				>
+				Home
+			</a>
+			
+		</li>
+		<li id="pg379937558885066801" class="wsite-menu-item-wrap">
+			<a
+						href="cv.html"
+				class="wsite-menu-item"
+				>
+				CV
+			</a>
+			
+		</li>
+		<li id="pg166043036265699639" class="wsite-menu-item-wrap">
+			<a
+						href="dh-tools.html"
+				class="wsite-menu-item"
+				>
+				DH Tools
+			</a>
+			
+		</li>
+		<li id="pg748727706253645763" class="wsite-menu-item-wrap">
+			<a
+						href="tutorials.html"
+				class="wsite-menu-item"
+				>
+				Tutorials
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-533133354496466480"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="batch-geocoding.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Batch Geocoding
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-650844071908662481"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="census-data.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Census Data
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-475592593995823344"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="chicago-style-footnotes.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Chicago Style Footnotes
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-714175088320767348"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="storymaps.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			StoryMaps
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-515398209577793066"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="tableau-visualizations.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Tableau Visualizations
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-971543390449875433"
+	class="wsite-menu-subitem-wrap wsite-nav-current"
+	>
+	<a
+				href="qgis.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			QGIS
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-385149568319642385"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="wordpress-tutorial.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			WordPress Tutorial
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-479869350234105760"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="zotero-setup.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Zotero Setup
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg851374558209756744" class="wsite-menu-item-wrap">
+			<a
+						href="research-resources.html"
+				class="wsite-menu-item"
+				>
+				Research Resources
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-743845505861732370"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="digital-archives.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Digital Archives
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-249088229822129303"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="research-guides.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Research Guides
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+</ul>
+</div>
+		<div id="content-wrapper">
+			<div id="content"><div id="wsite-content" class="wsite-elements wsite-not-footer">
+	<h2 class="wsite-content-title">QGIS Tutorial</h2>
+
+<div class="paragraph"><font color="#2a2a2a"><em>Note</em><em>:</em> This tutorial is specifically for HIST 502 students at California State University San Marcos. It borrows heavily from the expertise of Dr. Jeffrey Charles and from <u><strong><a href="http://fredgibbs.net/tutorials/" target="_blank">Dr. Fred Gibbs's tutorials</a></strong></u>.</font><br /><br />Now that you've watched the first half of&nbsp;<u><strong><a href="https://youtu.be/kCnNWyl9qSE" target="_blank">Klas Karlsson's tutorial</a></strong></u> and gotten a bit familiar with QGIS, we are going to use the software to map some historical data and to georeference a historical map to display that data on.</div>
+
+<h2 class="wsite-content-title"><font size="5">Making a Map</font></h2>
+
+<div class="paragraph"><ul><li>Open QGIS and start a new project (select <strong>New Project</strong>&nbsp;from the top ribbon menu). Go ahead and save it (by clicking <strong>Save Project</strong>) in a dedicated folder for this tutorial. QGIS is not without glitches, so make it a habit to save things early and often as you work through the tutorial. I saved mine as the very creatively titled "QGIS Tutorial."</li><li>Your new project will be blank because QGIS works with data, not maps, so we'll need to add some data to tell it to display something other than a blank slate. In this first exercise, we will make a map of the 1870 Census.</li><li>The first thing we'll do is acquire the shapefile of U.S. and Native territories as they existed in 1870. <strong><a href="uploads/5/3/4/3/53434149/harvard-nhgis-pop1870-shapefile.zip" target="_blank">Download the file here</a></strong>. Once you've downloaded&nbsp;the file, find it on your computer, unzip it, and move the extracted folder into whatever folder you dedicated for this tutorial.</li><li>Now let's load it into QGIS. In the second-row ribbon layer, click&nbsp;<strong>Open Data Source Manager</strong>&nbsp;(the icon looks like three diferent folders with a green plus sign in the corner), under the left-hand Browser menu, select&nbsp;<strong>Vector</strong>,&nbsp;in the resulting window, under <strong>Source Type</strong>&nbsp;select <strong>Directory</strong>, then click the three dots (...) to the right of&nbsp;<strong>Vector dataset(s)</strong>, navigate to the unzipped folder you just downloaded, and select the file&nbsp;<strong>NHGIS_POP1870.shp</strong>. Click&nbsp;<strong>Open</strong>&nbsp;and then&nbsp;<strong>Add</strong>.</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-01-at-4-11-34-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul><li>Hit&nbsp;<strong>Close</strong>&nbsp;on the&nbsp;<strong>Data Source Manager</strong>&nbsp;window, and you should see a map with some county boundaries (the color may be different for you).</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-01-at-4-13-15-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul><li>Click&nbsp;<strong>Save Project</strong>&nbsp;to save your progress (I will remind you to save your changes multiple times throughout the tutorial, as this is a profoundly useful habit to get into with any kind of DH work).</li><li>Next, let's explore what we just imported. In the Layers panel (the one in the bottom left of your screen), right-click on the harvard-ngis-pop1870-shapefile layer and select&nbsp;<strong>Rename Layer</strong>. Rename it to "1870 Census." It's always good to give the different layers logical names so as you add new layers, you know exactly what each one represents.</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-12-44-16-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul style="color:rgb(63, 63, 63)"><li>Let's also actually look at the data we've imported to understand what kind of information we have beyond just the county/territory boundaries. To see the data, right-click on you 1870 Census layer again and select&nbsp;<strong>Open Attribute Table</strong>&#8203;. In the table, you'll see a number of useful columns, such as the names of the territories in the NHGISNAM column (3rd column from the left) and, if you move all the way to the end of the columns, the POP_TOTAL column (3rd from the right/end), which gives us the number of residents in that county/territory. Another really important column is called GISJOIN&mdash;each county/territory in the dataset has a specific code that allows us to join other kinds of data to this file using this unique identifier column.</li><li>For now, let's visualize that POP_TOTAL column on our map. To do so, let's get into the layer's&nbsp;Properties. There are two ways to do that: you can once again right-click on your 1870 Census layer and select&nbsp;<strong>Properties</strong>&nbsp;or you can simply double-click on the layer. Either way, you will see the <strong>Symbology</strong> properties pop up with <strong>Single Symbol</strong> selected at the top. Click on the menu arrow to the right of&nbsp;<strong>Single Symbol</strong>&nbsp;and select&nbsp;<strong>Graduated</strong>.</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-12-56-11-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul><li>You should now see the&nbsp;<strong>Graduated</strong>&nbsp;symbology properties. Right under&nbsp;<strong>Graduated</strong>, you will see the&nbsp;<strong>Value</strong> field, which is currently blank. This is where you tell QGIS what data you would like to see represented on your map and how to handle the different values in the particular data column that you select. We want to see the total population numbers categorized using different colors in our map, so we'll click on the arrow to the right of&nbsp;<strong>Value</strong>&nbsp;and select the POP_TOTAL column.</li><li>Now, nothing has happened yet because we haven't told QGIS what we want to do with the data in that column. Click on&nbsp;the&nbsp;<strong>Classify</strong>&nbsp;button at the bottom of the open menu.</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-1-01-00-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul><li>Once you click&nbsp;<strong>Classify</strong>, you will see 5 different categories populate in the Symbol/Values/Legend field above. QGIS looked at the range of the numbers in your POP_TOTAL column and divided them into 5 different groups ranging from smallest (white) to largest (red) values. You could decide to divide your data differently and change the <strong>Mode</strong>&nbsp;from Equal County to, say, Equal Interval, depending on what you want your data to communicate. If you wanted to include more groups, you could change the number of&nbsp;<strong>Classes</strong>&nbsp;to the right of the bottom menu from 5 to, say, 10. These settings really just depend on what you are trying to communicate with your categorization. For now, let's stick with the 5 classes. Click&nbsp;<strong>OK</strong>&nbsp;to apply your changes and close the Properties menu.</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-1-07-06-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul><li><span style="color:rgb(63, 63, 63)">The resulting map should now look like this&mdash;with the most populated areas appearing in the north and northeast, as well as parts of the south. This is not at all surprising but cool to visualize. The thing that I would change at this point is add more Classes, since there are vast territories that appear in white, which I know looking at my legend under Layers means there could be anywhere from 0 to 3,343 people living there, and I'd probably want to know which places have closer to 0 people and which have more population. The same goes for my last group: the fact that it ranges form 21,661 people to 942,292 doesn't allow me to adequately distinguish between really densely populated areas and ones that only have 20+ thousand people. But let's not worry about any of that for now.</span></li><li><span style="color:rgb(63, 63, 63)">Click&nbsp;</span><strong style="color:rgb(63, 63, 63)">Save Project</strong>.</li><li><span style="color:rgb(63, 63, 63)">What we do want to do next is situate the lonely floating map in space. To do so, let's just use one of the automatically pre-loaded world maps available in QGIS's&nbsp;<strong>Browser</strong>&nbsp;(that's the menu to the left of the map and just above the <strong>Layers</strong> menu. You may need to scroll down a bit to get to&nbsp;<strong>XYZ Tiles</strong>&nbsp;and from there double-click on OpenStreetMap.</span>&#8203;</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-1-17-20-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul style="color:rgb(63, 63, 63)"><li>Oh no! Our lovely census map seems to have disappeared! Good thing we've been saving our project frequently. We could just quit QGIS in a panic and re-open our project in a fresh session to see our map unharmed by the map of the world. But we don't need to do that. All that happened when you double-clicked on OpenStreetMap is that your project added a layer and placed that new layer on top of your 1870 Census layer. In the&nbsp;<strong>Layers</strong>&nbsp;menu simply drag the <strong>OpenStreetMap</strong>&nbsp;down and, voil&agrave;, you've rearranged the order in which the two layers are arranged&mdash;with your map being on top of the world map.</li><li>Click&nbsp;<strong>Save Project</strong>.</li><li>That new view is great, but what if wanted to be able to see some of the base map under our 1870 Census layer? To do so, we'll adjust the layer's transparency settings. Let's go back into the 1870 Census layer&nbsp;<strong>Properties</strong>&nbsp;(double-click or right-click and select <strong>Properties</strong>), select <strong>Symbology</strong>, and at the very bottom, you should see&nbsp;<strong>Layer Rendering</strong>&nbsp;just above the Help/Style/Apply buttons. Click the arrow next to&nbsp;<strong>Layer Rendering</strong>&nbsp;to expand that sub-menu and set the&nbsp;<strong>Opacity</strong>&nbsp;slider to 50% (you can do so manually or by typing in 50 to the right of the slider). Click&nbsp;<strong>OK</strong>.</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-1-45-39-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul style="color:rgb(63, 63, 63)"><li>Now when you zoom in on the map, you can actually make out state boundaries and town names. You can always change the transparency setting again later.</li><li>Click&nbsp;<strong>Save Project</strong>.</li></ul></div>
+
+<h2 class="wsite-content-title">Adding Map Features</h2>
+
+<div class="paragraph"><ul><li>So far, you've learned how to add shapefiles with county/territory boundaries and other census information, how to visualize the kind of data you are interested in, and how to integrate your map with built-in QGIS features.</li><li>Next, let's learn how to visualize other kinds of data. In this example, let's say we wanted to study the relationship between railroads and population in 1870 U.S. and western territories. We already have a great start with the county boundaries and population data. Now let's add some railroad data.</li><li>We'll use the data available through the&nbsp;Railroads and the Making of Modern America Project. Go to their&nbsp;<u><strong><a href="https://railroads.unl.edu/resources/" target="_blank">Data</a></strong></u>&nbsp;page, and under&nbsp;<strong>Download Data</strong>, click on "Historical GIS: The 1840-1845-1850-1861-1870 Railroad System in America, State and National Shapefiles." Unzip the downloaded file and place it into whatever folder has now become you QGIS tutorial directory.</li><li>Examine the folder. Once you go in, you'll see 6 different subfolders. The one we are interested in is <strong>RR1870</strong>, and it contains a number of geospatial files. Let's get them loaded into QGIS.</li><li>See if you remember how to upload data to your project. If not, no worries: from the second row of the ribbon menu at the top of QGIS, click&nbsp;<strong>Open Data Source Manager</strong>. In the left-hand menu that pops up, select&nbsp;<strong>Vector</strong>, under&nbsp;<strong>Source Type</strong>, make sure&nbsp;<strong>Directory</strong>&nbsp;is selected, and then click the three dots to the right of&nbsp;<strong>Vector Dataset(s)</strong>&nbsp;to navigate to your&nbsp;<strong style="color:rgb(63, 63, 63)">RR1870&nbsp;</strong>folder that you just downloaded. Click&nbsp;<strong>Add</strong>&nbsp;and then&nbsp;<strong>Close</strong>.</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-1-59-24-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul><li>It may not look like much, but you have successfully added your railroads data. You can tell by the new yellow lines on my map (your colors might be different) and by the fact that there is a new layer added in my&nbsp;<strong>Layers</strong>&nbsp;menu. Let's rename the new layer (currently RR1870-RR1870WGS84) to "Railroads."</li><li>Click&nbsp;<strong>Save Project</strong>.</li><li>Let's also play around with how the railroads are displayed. To help make things easier, let's temporarily remove the Census and OpenStreetMap layers from view. To do so, simply un-click the checkmarks next to both of those layers in your&nbsp;<strong>Layers</strong>&nbsp;menu.</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-2-03-32-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul><li>We are back to the railroads lonesomely floating in space, which is fine because we are trying to change how they display on the map.</li><li>Let's get into our Rairoads'&nbsp;<strong>Properties</strong>&nbsp;and once again deal with the&nbsp;<strong>Symbology</strong>&nbsp;tab in the left-hand menu. You'll see right away under&nbsp;<strong>Single Symbol</strong>&nbsp;that the railroads are displayed as a&nbsp;<strong>Line/Simple Line</strong>. If you look down, you'll see their color, opacity, and width, along with various other options available to you underneath.</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-2-06-38-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul><li>I like the&nbsp;<strong>topo railway</strong>&nbsp;option in the right-hand corner of my menu, so I'll select that. Once I do, the menu will automatically update the color and width. Click&nbsp;<strong>OK</strong>.</li><li>Great! Now our railroads actually kind of look like railroads.</li><li>Click&nbsp;<strong>Save Project</strong>.</li><li>Make the 1870 Census and OpenStreetMap layers visible again by clicking the check boxes next to them, and we have something resembling a map of 1870s U.S./North American territories, which allows us to confirm that yes, most railroad hubs were indeed placed in densely populated areas, but we also see the railroads expansion into the west, which of course would, in turn, bring more people into these territories. Neat!</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-2-18-44-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<h2 class="wsite-content-title">Georeferencing a Historical Map</h2>
+
+<div class="paragraph"><ul><li>What we have here is great, but what if we wanted to make the map even more historically accurate by overlaying our data on a map that not only has the correct county/territory boundaries (which our map does, thanks to the 1870 Census shapefile), but also actual contemporary historical markers? We can do that by adding a scanned&nbsp;image of an actual 1870s map and aligning it to our map in a process called&nbsp;georeferencing.&nbsp;</li><li>First, let's find a high quality historical map. I used David Rumsey's Map Collection to do a quick search for 1870. On the first results page, I found <strong><u><a href="https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~219371~5504599:United-States-?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;qvq=w4s:/where%2FUnited%2BStates;q:1870;sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&amp;mi=10&amp;trs=189" target="_blank">this map</a></u></strong> by A. J. Johnson. To download the map, you could right-click on the map and save the image to your hard drive, but remember: you want a high resolution copy, in order to get which click on the&nbsp;<strong>EXPORT</strong>&nbsp;button in the top right-hand corner of the page. A small menu with available size options should pop up. Click on the&nbsp;<strong>Extra Large</strong>&nbsp;option, wait for the export to complete, unzip the downloaded file, and move it to your QGIS tutorial folder. Open the image and inspect it: when you zoom in, you can clearly see the various map features, which is great for our purposes.</li><li>Now let's get the image into QGIS. We will add the image&mdash;you guessed it&mdash;as a new layer, but this time, we will be adding a raster layer. F<span style="color:rgb(63, 63, 63)">rom the second row of the ribbon menu at the top of QGIS, click&nbsp;</span><strong style="color:rgb(63, 63, 63)">Open Data Source Manager</strong><span style="color:rgb(63, 63, 63)">. In the left-hand menu that pops up, select&nbsp;</span><strong style="color:rgb(63, 63, 63)">Raster</strong><span style="color:rgb(63, 63, 63)">, under&nbsp;</span><strong style="color:rgb(63, 63, 63)">Source</strong>, click the three dots and then navigate to the .jpg file you just downloaded (notice that this time you are not navigating to a folder containing a file, but to the file itself). Click&nbsp;<strong>Add</strong>&nbsp;and&nbsp;<strong>Close</strong>.</li><li>Click&nbsp;<strong>Save Project</strong>.</li><li>Depending on your zoom level, you may not see the newly added layer at all, but you will see that a new layer has been added in the&nbsp;<strong>Layers</strong>&nbsp;menu. Let's rename that layer "1870 Map." When you go to rename it, you'll see a question mark next to it, and if you click on it, QGIS will tell you that it doesn't know what to do with this layer because it has no georeferencing information.</li><li>This is what we'll be working on next. (By the way, to see where your new&nbsp;layer actually ended up, zoom out until you see the image floating in some corner of your QGIS canvas. This is fine for now. It will likely look something like this.)</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-2-34-17-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul><li>To fix whatever is happening here, let's georeference our map. Essentially, you will be adding points to both the world map and your image to tell QGIS how to properly align the image on your canvas.</li><li>There is a built-in tool called&nbsp;<strong>Georeferencer</strong>&nbsp;that will help us do that. In the main QGIS menu (at the top of the window), select&nbsp;<strong>Layer</strong>&nbsp;and click on&nbsp;<strong>Georeferencer</strong>. (If you can't find it there for whatever reason, you can always type the word Georeferencer into the Help menu at the top as well.)</li><li>A new, depressingly blank Georeferener window should pop up. If your mouse hovers over the blank canvas, you will notice it will change its cursor and clicking anywhere will leave a dot. These dots will tell QGIS which feature in your .jpg map corresponds to the existing georeferenced map.</li><li>You technically only need three points to georeference an image, but the more points you add, the better your accuracy will be. My strategy: click on easily identifiable features, such as distinct borders, lakes, and curves for perfect alignment.</li><li>Let's try this. At the top of the&nbsp;<strong>Georeferencer</strong>&nbsp;menu window, click on the&nbsp;<strong>Open Raster</strong>&nbsp;button (blue square in the left-hand corner) and once again navigate to the .jpg of the map you just downloaded; it should now show up in your canvas.</li><li>In the middle of the <strong>Georeferencer</strong> menu window, click on the <strong>Add Point</strong>&nbsp;button (looks like a plane with a yellow star next to it) and begin adding points. Again, here precision matters. So start by zooming into Florida and clicking the southmost point. Once you've hit that, a new dialogue window will pop up asking you how you want to go about georeferencing that point. Click&nbsp;<strong>From Map Canvas<em>&nbsp;</em></strong>in the left-hand corner of the pop-up. Repeat what you did with the image on the actual map: zoom all the way into Florida and find the exact same point that you had clicked on in Georeferencer.&nbsp;</li><li>Now that same pop up will appear with filled-in coordinates. Click&nbsp;<strong>OK</strong>.</li><li>Under your image in Georeferencer, you should now see a new row, which corresponds to your first point's coordinates.&nbsp;</li><li>If you make a mistake, you can right-click on the appropriate row and remove that point.</li><li>Rinse and repeat at least 5 more times in various parts of the image/map to finish georeferencing your image. In the Georeferencer menu, switch between the <strong>Pan</strong>&nbsp;option and the <strong>Add Point</strong>&nbsp;option to move around your map between points. As you work, it might be helpful to have the two maps side-by-side in order to avoid making mistakes. If you are anything like me, you'll need to actually decide on where the two points will be before starting adding the next point&mdash;otherwise, trying to zoom and pan in your main QGIS window is a real pain. If you are smarter than me, you will first un-click the visibility layer of your 1870 Census to be able to better see your base map.</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-3-02-28-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul><li>In the end, I've added 13 points, trying my best to use obvious spots, such as boundaries, islands, and unusual geographical features.</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-3-08-08-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul><li>Once you've entered 5-10 points, in the&nbsp;<strong>Georeferencer&nbsp;</strong>menu, click on&nbsp;<strong>Transformation Settings</strong>&nbsp;(yellow gear icon).&nbsp;For <strong>Transformation type</strong>, choose <strong>Thin Plate Spline</strong> and for <strong>Resampling methods</strong>, choose <strong>Cubic Spline</strong>. Click the three dots to the right of&nbsp;<strong>Output file</strong>&nbsp;and select a folder in which your warped image will be saved (I recommend your QGIS tutorial folder). Finally, check the box that says&nbsp;<strong>Use 0 for transparency when needed</strong>. Click <strong>OK</strong>.</li><li>Go back to the top of the&nbsp;<strong>Georeferencer</strong>&nbsp;menu and click the green&nbsp;<strong>Play</strong>&nbsp;button. This is what initiates the merging of your image with the map. Wait...</li><li>Once the process is done, go back to your main QGIS window, and you'll see that QGIS added your image to your map. It's not the prettiest map I've ever seen, but it did the job!</li><li>Click&nbsp;<strong>Save Project</strong>.</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-3-16-44-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul><li>QGIS named the new georeferenced image "0358021_modified," and I'll want adjust that layer's transparency. Go to the layer's&nbsp;<strong>Properties</strong>&nbsp;and select&nbsp;<strong>Transparency<em>&nbsp;</em></strong>in the right-hand menu column. Change&nbsp;<strong>Global opacity&nbsp;</strong>to about 60%, which should let you see all of your layers together, assuming you have turned the 1870 Census layer's visibility back on.</li><li>Let's do just a couple more things to make the map prettier. Let's turn off the visibility of the&nbsp;<strong>OpenStreetMap</strong>&nbsp;layer, since we (sort of) have a good map background now to see our census/railroad data on. And let's change the colors of the total population graduated symbology in the 1870 Census layer to blue, since the red scale interferes with the pinks and reds in our historical map. go to 1870 Census layer's&nbsp;<strong>Properties</strong>, select&nbsp;<strong>Symbology</strong>, and under&nbsp;<strong>Color ramp&nbsp;</strong>navigate to <strong>Blues</strong>. Under <strong>Layer rendering</strong>, bring <strong>Opacity&nbsp;</strong>up to about 80%. Click&nbsp;<strong>OK</strong>&#8203;.</li><li>Ah... much better.</li></ul></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/5/3/4/3/53434149/screen-shot-2022-08-02-at-3-25-57-pm_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph"><ul><li>Click&nbsp;<strong>Save Project</strong>.</li><li>You can continue customizing your visibility settings and playing around with different views. You can also export any view of your map and share it with others. Congratulations on successfully learning how to make maps, add data and features, and georeference historical maps!</li></ul></div>
+</div>
+</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="footer-content"><div class='wsite-elements wsite-footer'>
+<div style="text-align:right;"><div style="height:10px;overflow:hidden"></div>
+<span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-mail' href='mailto:skrivulskaya@gmail.com' target='_blank' alt='Mail' aria-label='Mail'><span class='wsite-social-item-inner'></span></a><a class='wsite-social-item wsite-social-twitter' href='https://twitter.com/suzzzanna' target='_blank' alt='Twitter' aria-label='Twitter'><span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-linkedin' href='https://www.linkedin.com/in/suzannakrivulskaya' target='_blank' alt='Linkedin' aria-label='Linkedin'><span class='wsite-social-item-inner'></span></a></span>
+<div style="height:0px;overflow:hidden"></div></div>
+
+<div class="paragraph" style="text-align:center;"><font size="1">&copy; COPYRIGHT SUZANNA KRIVULSKAYA 2023. ALL RIGHTS RESERVED.</font></div></div></div>
+	</div>
+</div>
+    <div id="customer-accounts-app"></div>
+    <script src="http://cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1234"></script>
+
+		
+	</body>
+</html>
